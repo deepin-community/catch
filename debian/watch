@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=s/@DEB_EXT@//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/catch-$1.tar.gz/ \
+ https://github.com/catchorg/Catch2/tags .*/v?(1\.\d+\.\d+)\.tar\.gz
