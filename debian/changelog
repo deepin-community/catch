@@ -1,5 +1,76 @@
-template-repository (1.0-1) unstable; urgency=medium
+catch (1.12.2.1-deepin) unstable; urgency=medium
 
-  * Initial release
+  * release 1.12.2.1-deepin
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- <lvpeilong@uniontech.com>  Wed, 19 Oct 2022 14:47:06 +0800
+
+catch (1.12.2-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+  [ Jérémy Lal ]
+  * New upstream version 1.12.2
+  * Fix Python 3 build
+
+  [ Ondřej Nový ]
+  * d/copyright: Use https protocol in Format field
+  * d/changelog: Remove trailing whitespaces
+
+  [ Timo Röhling ]
+  * Work around missing SIGSTKSZ with glib 2.34 (Closes: #993515)
+    Thanks to Drew Parsons for the patch.
+  * Bump Standards-Version to 4.6.1
+
+ -- Timo Röhling <roehling@debian.org>  Mon, 08 Aug 2022 10:38:49 +0200
+
+catch (1.12.1-1) unstable; urgency=medium
+
+  [ Nicolas Dandrimont ]
+  * Fix Vcs-Git URL
+
+  [ Jérémy Lal ]
+  * Watch major 1
+  * Update Homepage url
+  * New upstream version 1.12.1
+  * Migrate to salsa.debian.org, update Vcs-* url
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 22 Mar 2018 16:12:32 +0100
+
+catch (1.10.0-1) unstable; urgency=medium
+
+  * New upstream version 1.10.0 (Closes: #875756)
+  * Update Vcs-* fields
+  * debhelper 10
+  * Standards-Version 4.1.0
+  * Build-Depends cmake
+  * Build-Depends g++ to avoid clang bug #871011
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 14 Sep 2017 13:59:44 +0200
+
+catch (1.2.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.2.0
+  * Upstream now committed to semantic versioning
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 29 Jun 2015 21:20:41 +0200
+
+catch (1.1.3+gitc51e8681-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.1.3+gitc51e8681 (Closes: #787187).
+  * Use new version scheme and fix get-orig-source
+  * Document get-orig-source in copyright
+  * Standards-Version 3.9.6
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 31 May 2015 15:39:57 +0200
+
+catch (1.0+m10git1e2f1d16-1) unstable; urgency=low
+
+  * Upstream update, build 10. Use ordered version number.
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 15 Sep 2013 16:39:43 +0200
+
+catch (1.0+gitf7378eeb-1) unstable; urgency=low
+
+  * Initial release (Closes: #722908)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 14 Sep 2013 16:47:31 +0200
